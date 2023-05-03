@@ -1,0 +1,53 @@
+.container {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+
+#loader {
+  text-align: center;
+  visibility: hidden;
+}
+
+form {
+  width: 50%;
+  margin-right: 10px;
+}
+
+form >*, textarea {
+  width: 100%;
+}
+
+input, select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+}
+
+.flexed {
+  display: flex;
+}
+
+.d-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.result-container {
+  width: 50%;
+  margin-left: 10px;
+
+  word-break: break-all;
+  word-break: break-word;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  max-height: 95vh;
+}
+
+textarea.form-control {
+  height: 120px !important;
+}
